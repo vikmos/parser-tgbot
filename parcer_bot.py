@@ -1,3 +1,5 @@
+"""Написать программу, которая шлёт в некоторый канал в Телеграмме последнюю новость с сайта https://vc.ruУсловие: в коде не должно быть токенов."""
+
 import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
